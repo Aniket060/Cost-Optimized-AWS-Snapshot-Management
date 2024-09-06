@@ -16,9 +16,9 @@ Setup:
    A] Execution set to 10s
    B] Allow permissions for :
                 "ec2:DescribeInstances",
-                "ec2:DeleteSnapshot",
-                "ec2:DescribeVolumes",
-                "ec2:DescribeSnapshots"
+                 "ec2:DeleteSnapshot",
+                 "ec2:DescribeVolumes",
+                 "ec2:DescribeSnapshots"
 2. Add an EventBridge Schedule Expression rule of desired time, to the Lambda Function.
 3. Deploy the Code
    
