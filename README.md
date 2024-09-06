@@ -1,4 +1,3 @@
-#Cost-Optimized-AWS-Snapshot-Management
 
 In modern cloud environments, efficient resource management is crucial for cost optimization and operational efficiency. This project focuses on automating the management of EBS snapshots within AWS, aiming to streamline snapshot cleanup and optimize storage costs. The solution leverages AWS Lambda functions triggered by scheduled CloudWatch Events to automatically evaluate and delete unnecessary snapshots based on specific criteria.
 
