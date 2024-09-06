@@ -6,7 +6,7 @@ With the increasing adoption of cloud infrastructure, organizations seek to redu
 EBS snapshots are vital for data backup and recovery but can accumulate rapidly, leading to unnecessary storage costs if not managed properly. This project addresses the need for efficient snapshot management by implementing an automated solution that ensures only necessary snapshots are retained while obsolete or unnecessary ones are deleted thus helping to reduce storage costs and optimize cloud resource usage.
 
 Features: 
-Automated Snapshot Cleanup: Scheduled Lambda functions periodically check and delete EBS snapshots based on defined criteria which includes Snapshots :
+Automated Snapshot Cleanup that leverages event-driven system to periodically check and delete EBS snapshots based on defined criteria which includes Snapshots :
 1. Not associated with any existing volume.
 2. Associated with a volume not attached to any running EC2 instances.
 3. Used for Disaster Recovery
